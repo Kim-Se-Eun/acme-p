@@ -76,3 +76,33 @@
 .testimonial button.next{
   right: 0;
 }
+.cta{
+  background: #292C2E;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--base-unit)  * 2);
+  align-items: center;
+}
+.cta .titles{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--base-unit);
+}
+.cta .section_tt{
+  color: var(--white);
+}
+.cta .section_desc{
+  color: var(--white);
+  font-weight: 100;
+}
+.copyright{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--base-unit);
+}
+.copyright em{
+  color: var(--primary);
+  text-decoration: underline;
+}
