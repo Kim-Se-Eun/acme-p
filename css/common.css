@@ -46,6 +46,10 @@
   height: 1px;
   overflow: hidden;
 }
+hr{
+  bottom: none;
+  border-top: 1px solid var(--medium-gray);
+}
 
 /* typography */
 body{
