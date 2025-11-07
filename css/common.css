@@ -28,6 +28,12 @@
 }
 
 /* Layout */
+.layout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: calc(var(--base-unit)  * 2);
+}
 .container{
   width: var(--container);
   margin: 0 auto;
