@@ -180,3 +180,30 @@ header nav ul li:first-child{
 header nav ul li:first-child a{
   color: var(--black);
 }
+/*  FOOTER  */
+.cta{
+  background: #292C2E;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--base-unit)  * 2);
+  align-items: center;
+}
+.cta .section_tt{
+  color: var(--white);
+}
+.cta .section_desc{
+  color: var(--medium-gray);
+  font-weight: 100;
+}
+.cta .titles{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--base-unit);
+}
+.copyright{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--base-unit);
+}
