@@ -1,0 +1,24 @@
+.section_desc {
+  color: var(--medium-gray);
+}
+
+.qna,.portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--base-unit) * 2);
+  align-items: center;
+}
+.qna_list{
+  width: 270px;
+  margin: 0 auto;
+}
+.qna_list li + li{
+  margin-top: 1px;
+}
+.question{
+  width: 750px;
+  height: 54px;
+  background: var(--light-gray);
+  padding: 0 20px;
+  text-align: left;
+}
